@@ -1,0 +1,23 @@
+@import '../../colours.scss';
+
+#timerContainer {
+  display: grid;
+  grid-auto-flow: column;
+  font-size: 4rem;
+  font-weight: 500;
+  grid-column-gap: 1px;
+}
+
+#timerContainer>div.timerNumber,
+#timerContainer>div.millisecondTimerNumber {
+  display: flex;
+  justify-content: center;
+}
+
+#timerContainer>div.timerNumber {
+  width: 70px;
+}
+
+#timerContainer>div.millisecondTimerNumber {
+  width: 100px;
+}

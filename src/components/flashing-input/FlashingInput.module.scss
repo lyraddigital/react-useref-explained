@@ -1,0 +1,23 @@
+@import '../../colours.scss';
+
+#flashingInputContainer {
+  display: grid;
+  justify-content: center;
+  align-content: space-between;
+}
+
+#flashingInput {
+  width: 100%;
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: 2px solid black;
+  outline: none;
+  font-size: 3rem;
+  animation: background-color 10s;
+}
+
+#flashingInput:focus {
+  background-color: red;
+  color: white;
+  border: 2px solid orange;
+}

@@ -1,0 +1,29 @@
+@import '../../../colours.scss';
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background: $example-background-color;
+  border-radius: 20px;
+}
+
+.card>header {
+  padding: 15px 20px;
+  border-radius: 20px 20px 0 0;
+  background: $example-header-color;
+}
+
+.card h2 {
+  font-weight: 500;
+  font-size: 2.5rem;
+  color: $heading-color;
+}
+
+.cardContent {
+  display: flex;
+  flex: 1;
+  text-align: center;
+  align-self: center;
+  padding: 30px 40px;
+  font-size: 2.1rem;
+}

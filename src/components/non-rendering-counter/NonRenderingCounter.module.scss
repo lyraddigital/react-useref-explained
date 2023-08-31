@@ -1,0 +1,18 @@
+@import '../../colours.scss';
+
+#clicksContainer {
+  display: grid;
+  grid-row-gap: 20px;
+  justify-items: center;
+}
+
+#counterContainer {
+  display: grid;
+  grid-row-gap: 5px;
+  justify-items: center;
+}
+
+#clickCount {
+  font-size: 4rem;
+  font-weight: 500;
+}

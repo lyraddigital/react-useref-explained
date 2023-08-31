@@ -1,0 +1,14 @@
+@import '../../colours.scss';
+
+#tickerShell {
+  display: grid;
+  justify-items: center;
+  align-content: space-between;
+}
+
+#tickerButtonsContainer {
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: 25px;
+  justify-items: center;
+}

@@ -1,0 +1,20 @@
+@import 'colours.scss';
+
+#siteHeader {
+  position: absolute;
+  top: 25rem;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  color: $heading-color;
+  font-size: 3rem;
+}
+
+#examplesContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  grid-column-gap: 80px;
+  padding: 40px;
+}
